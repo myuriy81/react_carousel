@@ -65,7 +65,7 @@ class App extends React.Component<{}, State> {
     return (
       <div className="App">
         {/* eslint-disable-next-line */}
-        <h1>Carousel with {this.state.images.length} images</h1>
+        <h1 data-cy="title">Carousel with {this.state.images.length} images</h1>
         <div className="inputs">
           <label htmlFor="itemId">Item width:</label>
           <input
